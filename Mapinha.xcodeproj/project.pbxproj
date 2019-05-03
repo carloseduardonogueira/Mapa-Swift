@@ -12,6 +12,8 @@
 		3F3FC7C320A61D3E0095093B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FC7C120A61D3E0095093B /* Main.storyboard */; };
 		3F3FC7C520A61D3E0095093B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FC7C420A61D3E0095093B /* Assets.xcassets */; };
 		3F3FC7C820A61D3E0095093B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FC7C620A61D3E0095093B /* LaunchScreen.storyboard */; };
+		3F3FC7D120A61D880095093B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3FC7D020A61D880095093B /* MapKit.framework */; };
+		3F3FC7D320A61D950095093B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3FC7D220A61D950095093B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3F3FC7C420A61D3E0095093B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3FC7C720A61D3E0095093B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3FC7C920A61D3E0095093B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3FC7D020A61D880095093B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F3FC7D220A61D950095093B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3FC7D320A61D950095093B /* CoreLocation.framework in Frameworks */,
+				3F3FC7D120A61D880095093B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,7 @@
 			children = (
 				3F3FC7BC20A61D3E0095093B /* Mapinha */,
 				3F3FC7BB20A61D3E0095093B /* Products */,
+				3F3FC7CF20A61D880095093B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,15 @@
 				3F3FC7C920A61D3E0095093B /* Info.plist */,
 			);
 			path = Mapinha;
+			sourceTree = "<group>";
+		};
+		3F3FC7CF20A61D880095093B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FC7D220A61D950095093B /* CoreLocation.framework */,
+				3F3FC7D020A61D880095093B /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
